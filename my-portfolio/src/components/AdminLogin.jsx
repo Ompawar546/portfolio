@@ -24,7 +24,7 @@ const AdminLogin = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:5000/api/admin/login', credentials);
+      const response = await axios.post('https://oms-portfolio-19lv.onrender.com/api/admin/login', credentials);
       localStorage.setItem('adminToken', response.data.token);
       navigate('/admin/dashboard');
     } catch (error) {

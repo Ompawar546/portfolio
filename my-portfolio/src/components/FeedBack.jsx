@@ -21,7 +21,7 @@ const FeedBack = () => {
     setSubmitSuccess(false);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/feedback/submit', feedbackData);
+      const response = await axios.post('https://oms-portfolio-19lv.onrender.com/api/feedback/submit', feedbackData);
       
       if (response.status === 201) {
         setSubmitSuccess(true);
