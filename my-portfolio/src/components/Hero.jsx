@@ -16,13 +16,13 @@ const Hero = () => {
               Full Stack Developer | MERN Specialist
             </p>
             <div className="flex justify-center space-x-4">
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              <a href="https://github.com/Ompawar546" className="text-gray-600 hover:text-gray-900">
                 <GithubIcon size={24} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              <a href="www.linkedin.com/in/om-pawar-8848b2249" className="text-gray-600 hover:text-gray-900">
                 <LinkedinIcon size={24} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmXKWSSpqGHWWBgpnFjFrJwjCNDXVfPxfVCRrBbglRQPqZGzvNJtxCntZTLpdFXtSNZBzk" className="text-gray-600 hover:text-gray-900">
                 <MailIcon size={24} />
               </a>
             </div>

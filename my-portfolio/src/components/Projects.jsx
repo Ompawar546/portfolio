@@ -12,7 +12,7 @@ const projects = [
     {
       title: "A SOCIAL MEDIA WEB-APPLICATION",
       description: "The platform enables users to create accounts, manage profiles, share posts, likes on content. It features secure user authentication, real-time updates, and media upload functionality.",
-      tags: ["Socket.io", "React", "Node.js", "MongoDB"],
+      tags: ["React", "Node.js", "MongoDB", "Express"],
       link: "#",
       image: "/api/placeholder/600/400"
     },
@@ -86,7 +86,7 @@ const Projects = () => {
                     href={project.link}
                     className="text-blue-600 hover:text-blue-800 font-medium flex items-center gap-1 group"
                   >
-                    Live Demo
+                    Open
                     <ExternalLinkIcon size={16} className="transform group-hover:translate-x-1 transition-transform" />
                   </a>
                   <a 
