@@ -17,29 +17,30 @@ const UserSelection = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-        <h1 className="text-2xl font-bold text-center mb-6">Welcome to My Portfolio</h1>
-        <p className="text-gray-600 text-center mb-8">Please select who you are:</p>
-        
-        <div className="space-y-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400">
+      <div className="bg-white p-10 rounded-2xl shadow-2xl max-w-md w-full">
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-800">
+          Welcome to My Portfolio
+        </h1>
+        <p className="text-lg text-gray-600 text-center mb-8">
+          Select your profile to proceed
+        </p>
+        <div className="space-y-6">
           <button
             onClick={() => handleSelection('recruiter')}
-            className="w-full p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            className="w-full py-3 bg-gradient-to-r from-blue-500 to-teal-500 text-white font-semibold rounded-lg shadow-lg hover:scale-105 transform transition duration-300"
           >
             Job Recruiter / Employer
           </button>
-          
           <button
             onClick={() => handleSelection('visitor')}
-            className="w-full p-4 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+            className="w-full py-3 bg-gradient-to-r from-green-500 to-lime-500 text-white font-semibold rounded-lg shadow-lg hover:scale-105 transform transition duration-300"
           >
             Visitor / Student
           </button>
-          
           <button
             onClick={() => handleSelection('admin')}
-            className="w-full p-4 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
+            className="w-full py-3 bg-gradient-to-r from-gray-700 to-gray-900 text-white font-semibold rounded-lg shadow-lg hover:scale-105 transform transition duration-300"
           >
             Admin
           </button>
